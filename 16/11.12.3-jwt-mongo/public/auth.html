@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<title>Authentication</title>
+<script src="https://code.jquery.com/jquery-2.1.4.min.js">
+</script>
+<script src="auth.js">
+</script>
+
+<body>
+  <form id="login">
+    <div>
+      <label for="username">Username:</label>
+      <input type="text" id="username">
+    </div>
+    <div>
+      <label for="password">Password:</label>
+      <input type="password" id="password">
+    </div>
+    <button id="loginBtn" type="button">Login</button>
+    <p id="errorMsg"></p>
+  </form>
+
+  <button id="statusBtn">Display Status</button>
+
+  <ul id="status">
+  </ul>
+</body>
+
+</html>

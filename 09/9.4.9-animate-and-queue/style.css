@@ -1,0 +1,27 @@
+#help-text {
+  background-color: lightblue;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  width: 240px;
+  font-size: 12pt;
+  padding: 10px;
+  display: none;
+  z-index: 0;
+}
+
+#help {
+  font-size: 26pt;
+  font-weight: bold;
+  text-align: center;
+  color: darkblue;
+  background: lightblue;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  width: 40px;
+  border-radius: 50px;
+  border: darkblue 2px solid;
+  cursor: pointer;
+  z-index: 2;
+}

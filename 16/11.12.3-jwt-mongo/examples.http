@@ -1,0 +1,29 @@
+###
+POST http://localhost:3000/api/user HTTP/1.1
+content-type: application/json
+
+{
+    "username": "bsmith",
+    "password": "bsmith",
+    "status": "Working Hard"
+}
+
+###
+POST http://localhost:3000/api/user HTTP/1.1
+content-type: application/json
+
+{
+    "username": "csmith",
+    "password": "csmith",
+    "status": "Fishing"
+}
+
+###
+POST http://localhost:3000/api/user HTTP/1.1
+content-type: application/json
+
+{
+    "username": "dsmith",
+    "password": "dsmith",
+    "status": "Studying for 377 exam"
+}

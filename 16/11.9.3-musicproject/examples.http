@@ -1,0 +1,53 @@
+###
+
+GET http://localhost:3000/api/songs
+
+###
+
+POST http://localhost:3000/api/songs HTTP/1.1
+content-type: application/json
+
+{
+    "title": "Rolling in the deep",
+    "artist": "Adele",
+    "popularity": 10,
+    "releaseDate": "2015-10-23",
+    "genre": ["soul"]
+}
+
+###
+
+POST http://localhost:3000/api/songs HTTP/1.1
+content-type: application/json
+
+{
+    "title": "Pour Some Sugar on Me",
+    "artist": "Def Leppard",
+    "popularity": 10,
+    "releaseDate": "1987-12-25",
+    "genre": ["rock"]
+}
+
+###
+
+GET http://localhost:3000/api/songs/search?genre=soul
+
+###
+
+GET http://localhost:3000/api/songs/search?genre=classical
+
+###
+
+GET http://localhost:3000/api/songs/5db98a70b044cdc2ab9652b5
+
+###
+
+PUT http://localhost:3000/api/songs HTTP/1.1
+content-type: application/json
+
+{
+    "_id": "5db98d8856a9c2c34b784e49",
+    "popularity": 10
+}
+
+###

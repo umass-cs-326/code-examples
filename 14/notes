@@ -1,0 +1,14 @@
+# Install MySQL
+
+- mysql.server start
+- mysql -uroot
+
+You need to change the root password to make this work in node.js. From the mysql tool:
+
+```sql
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password'
+```
+
+Then you can run the `mysql` tool like this:
+
+$ mysql -uroot -ppassword
